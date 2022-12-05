@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./img.component.scss']
 })
 export class ImgComponent {
-
+  img: string = 'Hello friends'
 }
