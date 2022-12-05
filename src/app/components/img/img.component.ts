@@ -15,6 +15,6 @@ export class ImgComponent {
   }
 
   imgLoaded() {
-
+    console.log('img loaded')
   }
 }
