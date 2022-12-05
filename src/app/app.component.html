@@ -1,8 +1,8 @@
-<body>
-  <p>Main</p>
-  <input type="text" [(ngModel)]="imgParent">
-  <p>{{imgParent}}</p>
+<div class="app-main">
+  <h1>Main component - Parent</h1>
+  <input [(ngModel)]="inputParent" type="text" >
+  <p>Output from parent: {{inputParent}}</p>
 
   <!--Here we call the component img-->
-  <app-img [inputImg]="imgParent"></app-img>
-</body>
+  <app-img [inputChild]="inputParent"></app-img>
+</div>

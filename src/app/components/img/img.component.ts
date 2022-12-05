@@ -6,5 +6,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./img.component.scss']
 })
 export class ImgComponent {
-  @Input() inputImg: string = 'Hello friends'
+  @Input() inputChild: string = ''
 }

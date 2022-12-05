@@ -8,5 +8,5 @@ import { Form } from '@angular/forms';
 })
 export class AppComponent {
   title = 'my-store';
-  imgParent : string = 'img';
+  inputParent = '';
 }
