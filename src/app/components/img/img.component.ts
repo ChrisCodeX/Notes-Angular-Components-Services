@@ -7,7 +7,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
 })
 export class ImgComponent {
   @Input() imgUrl: string = ''
-  @Output()
+  @Output() loaded = new EventEmitter();
   imageDefault:string = './assets/images/default.png'
 
   imgError() {
