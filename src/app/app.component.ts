@@ -9,4 +9,8 @@ import { Form } from '@angular/forms';
 export class AppComponent {
   title:string = 'my-store';
   inputParent:string = '';
+
+  onLoaded() {
+    console.log('image loaded for the parent')
+  }
 }
