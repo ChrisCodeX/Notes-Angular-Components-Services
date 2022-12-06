@@ -15,7 +15,7 @@ export class ImgComponent {
   }
 
   imgLoaded() {
-    console.log('img loaded')
+    console.log('img loaded from the child')
     this.loaded.emit()
   }
 }
