@@ -4,5 +4,5 @@
   <p>Output from parent: {{inputParent}}</p>
 
   <!--Here we call the component img-->
-  <app-img (loaded)="" [imgUrl]="inputParent"></app-img>
+  <app-img (loaded)="onLoaded()" [imgUrl]="inputParent"></app-img>
 </div>
