@@ -7,6 +7,6 @@ import { Form } from '@angular/forms';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'my-store';
-  inputParent = '';
+  title:string = 'my-store';
+  inputParent:string = '';
 }

@@ -1,5 +1,8 @@
 <div class="img-component-container">
   <h2>Img component - child</h2>
   <p>img works!</p>
-  <p>Output child component: {{inputChild}}</p>
+  <img [src]="imgUrl" width="200px" *ngIf="imgUrl; else elseImg">
+  <ng-template #elseImg>
+    <img src="./assets/images/default.png" alt="">
+  </ng-template>
 </div>

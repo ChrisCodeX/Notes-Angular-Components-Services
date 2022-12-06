@@ -6,6 +6,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./img.component.scss']
 })
 export class ImgComponent {
-  imgUrl: string = 'https://www.w3schools.com/howto/img_avatar.png'
-  @Input() inputChild: string = ''
+  @Input() imgUrl: string = ''
 }
